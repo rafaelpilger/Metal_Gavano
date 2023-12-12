@@ -1,0 +1,217 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+
+}
+.text-muted {
+  color: none;
+}
+.navbar {
+  background-color: #09457d;
+  /*display: grid;*/
+  justify-content: left;
+  grid-column: 100px 1;
+}
+.navbar h1{
+  width: 4vw;
+}
+
+.collapse {
+  display: grid;
+}
+.navbar-brand img{
+  width: 100%;
+}
+
+.conteudo{
+  margin: 45px;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 57rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+}
+
+.engenheiros{
+  width: 630px;
+height: 380px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+#footer{
+   background-color: #09457d;
+}
+
+/*area DE contato*/
+
+.campo{
+  margin-bottom: 6px;
+  font-family:'open_sansregular';
+}
+
+.formularioContato { 
+  max-width:600px; 
+  height:auto; 
+  float:none; 
+  margin: 5vw auto 3vw auto;
+  padding:1em; 
+  margin-bottom:1em; 
+  border-radius:6px; 
+  background:#fff; 
+  box-shadow: 1px 0px 1.2px 0px #ccc; 
+  position:relative; 
+}
+.formularioContato:before { 
+  width:0; 
+  height:0; 
+  border:15px solid transparent; 
+  border-bottom-color:#fff; 
+  content:""; 
+  position:absolute; 
+  left:6%; 
+  top:-4.5%; 
+  margin-top:-4px; 
+  margin-left:6px; 
+  z-index:2;
+}
+.formularioContato label  { 
+  float:left; 
+  width:100%; 
+  margin-bottom:1.2em; 
+}
+.formularioContato label span {
+  width: 100%;
+  float: left;
+  color: #999;
+  margin-bottom: 6px;
+  font-family:'open_sansregular'; 
+}
+.formularioContato label input  { 
+  font-size:1em; 
+  color:#555; 
+  font-family:'open_sansregular'; 
+  outline:none; 
+  border:1px #dee5ed solid; 
+  border-radius:4px; 
+  padding:0.6em; 
+  transition: 0.3s;  
+}
+.formularioContato label select { 
+  font-size:1em; 
+  color:#555; 
+  border:1px #dee5ed solid; 
+  border-radius:4px; 
+  padding:0.6em; 
+  outline:none; 
+  transition: 0.3s;  
+}
+.formularioContato label textarea { 
+  font-size:1em; 
+  color:#555; 
+  border:1px #dee5ed solid; 
+  border-radius:4px; 
+  padding:1em; 
+  outline:none;
+  transition: 0.3s;   
+}
+.formularioContato label input:focus    { 
+  box-shadow:0 0 5px 0px rgb(178,216,231); border:1px #09457d solid; color:#09457d;}
+.formularioContato label select:focus   {
+   box-shadow:0 0 5px 0px rgb(178,216,231); border:1px #09457d solid; }
+
+.formularioContato label textarea:focus {
+ box-shadow:0 0 5px 0px rgb(178,216,231);
+  border:1px #09457d solid; color:#09457d;}
+.formularioContato button.btn-envia { 
+  background-color:#09457d; 
+  width:100%; display:block; 
+  margin:auto; cursor:pointer; 
+  border-radius:4px;  
+  border:0; 
+  padding:0.8em 0em; 
+  color:#fff; 
+  font-size:1.3em; 
+  font-family:'open_sansbold'; 
+  text-align: center;
+  transition: 0.3s;   
+}
+.formularioContato button.btn-envia:hover { 
+  background-color:#333; 
+}
+
+
+
